@@ -11,7 +11,7 @@ from .serializers import (CommentSerializer, FollowSerializer, GroupSerializer,
 
 class GetPostViewSet(mixins.CreateModelMixin, mixins.ListModelMixin,
                      viewsets.GenericViewSet):
-      pass
+    pass
 
 
 class PostViewSet(viewsets.ModelViewSet):
